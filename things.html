@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Things to Do - Visit Taniti</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+          integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" rel="stylesheet">
+
+    <style>
+        .card {
+            min-width: 250px
+        }
+    </style>
+
+</head>
+
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" style="padding-left: 5px">Visit Taniti</a>
+        <button aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"
+                data-bs-target="#navbarNavDropdown" data-bs-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="places.html">Places to Visit</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="things.html">Things to Do</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                       role="button">
+                        Visitor Guides
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="guides.html">Transportation</a></li>
+                        <li><a class="dropdown-item" href="guides.html">Lodging</a></li>
+                        <li><a class="dropdown-item" href="guides.html">FAQ</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Page Content -->
+<main>
+    <div class="container" style="padding-top:10px">
+        <h1 class="display-4">Things to Do</h1>
+    </div>
+    <div class="carousel slide carousel-dark" data-bs-ride="true" id="carouselExampleControls">
+        <div class="carousel-indicators">
+            <button aria-current="true" aria-label="Slide 1" class="active" data-bs-slide-to="0"
+                    data-bs-target="#carouselExampleControls" type="button"></button>
+            <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleControls"
+                    type="button"></button>
+            <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleControls"
+                    type="button"></button>
+        </div>
+        <div class="carousel-inner">
+            <!-- First group of 3 -->
+            <div class="carousel-item active">
+                <div class="container text-center">
+                    <div class="row pt-4 pb-4">
+                        <!-- Restaurants -->
+                        <div class="col pb-3">
+                            <div class="card">
+                                <a class="text-decoration-none text-black" data-bs-target="#restaurantModal"
+                                   data-bs-toggle="modal">
+                                    <img alt="..." class="card-img-top" src="img/sea.jpg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Restaurants</h5>
+                                        <p class="card-text">A wide range of excellent restarants</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Modal -->
+                            <div aria-hidden="true" aria-labelledby="restaurantModalLabel" class="modal fade"
+                                 id="restaurantModal" tabindex="-1">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="restaurantModalLabel">Restaurants</h1>
+                                            <button aria-label="Close" class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Try the local Fish & Rice spots, or enjoy familiar American
+                                                offerings.</p>
+                                            <p>Feeling adventurous? Why not try our delicious Pan-Asian cuisine!</p>
+                                            <strong>Hours:</strong>
+                                            <p>Fish & Rice: 11 am - 8 pm</p>
+                                            <p>American: 8 am - 9 pm</p>
+                                            <p>Pan-Asian: 10 am - 8 pm</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">
+                                                Close
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Museum -->
+                        <div class="col pb-3">
+                            <div class="card">
+                                <a class="text-decoration-none text-black" data-bs-target="#museumModal"
+                                   data-bs-toggle="modal">
+                                    <img alt="..." class="card-img-top" src="img/sea.jpg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Local History Museum</h5>
+                                        <p class="card-text">Learn about the rich history of Taniti</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Modal -->
+                            <div aria-hidden="true" aria-labelledby="museumModalLabel" class="modal fade"
+                                 id="museumModal" tabindex="-1">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="museumModalLabel">Local History Museum</h1>
+                                            <button aria-label="Close" class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Come learn about the rich culture and history of the small island of
+                                                Taniti.</p>
+                                            <p>Guided tours offered at the top of every hour.</p>
+                                            <strong>Free Admission</strong>
+                                            <p>
+                                                <strong>Hours:</strong>
+                                                <br/>
+                                                8 am - 6 pm, Every day
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">
+                                                Close
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Fishing Tour -->
+                        <div class="col pb-3">
+                            <div class="card">
+                                <a class="text-decoration-none text-black" data-bs-target="#fishingModal"
+                                   data-bs-toggle="modal">
+                                    <img alt="..." class="card-img-top" src="img/sea.jpg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Fishing Tours</h5>
+                                        <p class="card-text">Catch big on our Fishing Tours</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Modal -->
+                            <div aria-hidden="true" aria-labelledby="fishingModalLabel" class="modal fade"
+                                 id="fishingModal" tabindex="-1">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="fishingModalLabel">Fishing Tours</h1>
+                                            <button aria-label="Close" class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Watch to catch dinner tonight? Come along on our fishing boats and catch
+                                                something big!</p>
+                                            <p>Boats depart at the top of every hour.</p>
+                                            <p>
+                                                <strong>Admission:</strong>
+                                                <br/>
+                                                $50
+                                                <br/>
+                                                (includes pole and bait; max. 2 fish per person)
+                                            </p>
+                                            <p>
+                                                <strong>Hours:</strong>
+                                                <br/>
+                                                5 AM - 11 AM, Every day
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">
+                                                Close
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Second group of 3 -->
+            <div class="carousel-item">
+                <div class="container text-center">
+                    <div class="row pt-4 pb-4">
+                        <!-- Snorkeling -->
+                        <div class="col pb-3">
+                            <div class="card">
+                                <a class="text-decoration-none text-black" data-bs-target="#snorkelingModal"
+                                   data-bs-toggle="modal">
+                                    <img alt="..." class="card-img-top" src="img/sea.jpg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Snorkeling</h5>
+                                        <p class="card-text">A deep dive into the lush ocean</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Modal -->
+                            <div aria-hidden="true" aria-labelledby="snorkelingModalLabel" class="modal fade"
+                                 id="snorkelingModal" tabindex="-1">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="snorkelingModalLabel">
+                                                Snorkeling
+                                            </h1>
+                                            <button aria-label="Close" class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Come see the beauty of the ocean first-hand. Watch schools of fish and
+                                                their larger friends swim by!</p>
+                                            <p>
+                                                <strong>Admission:</strong>
+                                                <br/>
+                                                $30
+                                                <br/>
+                                                (includes all necessary gear)
+                                            </p>
+                                            <p>
+                                                <strong>Hours:</strong>
+                                                <br/>
+                                                6 am - 4 pm, Every day</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">
+                                                Close
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Ziplining -->
+                        <div class="col pb-3">
+                            <div class="card">
+                                <a class="text-decoration-none text-black" data-bs-target="#ziplineModal"
+                                   data-bs-toggle="modal">
+                                    <img alt="..." class="card-img-top" src="img/sea.jpg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Rainforst Zipline</h5>
+                                        <p class="card-text">Speedily zip through the rainforest</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Modal -->
+                            <div aria-hidden="true" aria-labelledby="ziplineModalLabel" class="modal fade"
+                                 id="ziplineModal" tabindex="-1">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="ziplineModalLabel">
+                                                Rainforest Zipline
+                                            </h1>
+                                            <button aria-label="Close" class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>View the rainforest from all new heights!</p>
+                                            <p>Zip along through the trees and feel the rainforest air!</p>
+                                            <p>
+                                                <strong>Admission:</strong>
+                                                <br/>
+                                                $20
+                                                <br/>
+                                                (round-trip)
+                                            </p>
+                                            <p>
+                                                <strong>Hours:</strong>
+                                                <br/>
+                                                10 am - 4 pm, Every day</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">
+                                                Close
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Bowling & Arcade -->
+                        <div class="col pb-3">
+                            <div class="card">
+                                <a class="text-decoration-none text-black" data-bs-target="#bowlingModal"
+                                   data-bs-toggle="modal">
+                                    <img alt="..." class="card-img-top" src="img/sea.jpg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bowling & Arcade</h5>
+                                        <p class="card-text">Entertainment for the whole family</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Modal -->
+                            <div aria-hidden="true" aria-labelledby="bowlingModalLabel" class="modal fade"
+                                 id="bowlingModal" tabindex="-1">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="bowlingModalLabel">
+                                                Snorkeling
+                                            </h1>
+                                            <button aria-label="Close" class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Come knock 'em down at our fun Bowling & Arcade!</p>
+                                            <p>Win tickets to get fabulous prizes!</p>
+                                            <p>
+                                                <strong>Admission:</strong>
+                                                <br/>
+                                                Bowling: $8/person
+                                                <br/>
+                                                Arcade: Varies
+                                            </p>
+                                            <p>
+                                                <strong>Hours:</strong>
+                                                <br/>
+                                                12 pm - 10 pm, Every day</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">
+                                                Close
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Third group of 3 -->
+            <div class="carousel-item">
+                <div class="container text-center">
+                    <div class="row pt-4 pb-4">
+                        <!-- Hellicoper Rides -->
+                        <div class="col pb-3">
+                            <div class="card">
+                                <a class="text-decoration-none text-black" data-bs-target="#hellicopterModal"
+                                   data-bs-toggle="modal">
+                                    <img alt="..." class="card-img-top" src="img/sea.jpg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Hellicoper Rides</h5>
+                                        <p class="card-text">Get a tour of the entire island in the air</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Modal -->
+                            <div aria-hidden="true" aria-labelledby="hellicopterModalLabel" class="modal fade"
+                                 id="hellicopterModal" tabindex="-1">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="hellicopterModalLabel">
+                                                Hellicopter Rides
+                                            </h1>
+                                            <button aria-label="Close" class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Exciting hellicopter ride above the island!</p>
+                                            <p>See the entire island from in the air!</p>
+                                            <p>
+                                                <strong>Admission:</strong>
+                                                <br/>
+                                                $15
+                                            </p>
+                                            <p>
+                                                <strong>Hours:</strong>
+                                                <br/>
+                                                12 pm - 10 pm, Every day
+                                                <br/>
+                                                (Weather permitting)
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">
+                                                Close
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Art Galleries -->
+                        <div class="col pb-3">
+                            <div class="card">
+                                <a class="text-decoration-none text-black" data-bs-target="#artModal"
+                                   data-bs-toggle="modal">
+                                    <img alt="..." class="card-img-top" src="img/sea.jpg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Art Galleries</h5>
+                                        <p class="card-text">Support local Taniti artists and culture</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Modal -->
+                            <div aria-hidden="true" aria-labelledby="artModalLabel" class="modal fade"
+                                 id="artModal" tabindex="-1">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="artModalLabel">
+                                                Art Galleries
+                                            </h1>
+                                            <button aria-label="Close" class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Support local Taniti artists and experience Taniti culture through the
+                                                lense of the people.</p>
+                                            <p>Many artists offer prints of their art for sale for you to take home.</p>
+                                            <p>
+                                                <strong>Free Admission</strong>
+                                            </p>
+                                            <p>
+                                                <strong>Hours:</strong>
+                                                <br/>
+                                                Varies, check local listings
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">
+                                                Close
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Pubs & Microbreweries -->
+                        <div class="col pb-3">
+                            <div class="card">
+                                <a class="text-decoration-none text-black" data-bs-target="#pubModal"
+                                   data-bs-toggle="modal">
+                                    <img alt="..." class="card-img-top" src="img/sea.jpg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pubs & Microbrewery</h5>
+                                        <p class="card-text">Come grab a drink!</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Modal -->
+                            <div aria-hidden="true" aria-labelledby="pubModalLabel" class="modal fade"
+                                 id="pubModal" tabindex="-1">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="pubModalLabel">
+                                                Pubs & Microbrewery
+                                            </h1>
+                                            <button aria-label="Close" class="btn-close" data-bs-dismiss="modal"
+                                                    type="button"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Grab a cold one from our local pubs!</p>
+                                            <p>Visit our microbrewery for a free drink!*</p>
+                                            <p>
+                                                <strong>Hours:</strong>
+                                                <br/>
+                                                Varies, check local listings
+                                            </p>
+                                            <p><small>*1 per valid photo ID, per month</small></p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">
+                                                Close
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleControls"
+                type="button">
+            <span aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleControls"
+                type="button">
+            <span aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</main>
+<!-- Footer Content -->
+<footer>
+
+</footer>
+<!-- Bootstrap JavaScript Libraries -->
+<script crossorigin="anonymous"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js">
+</script>
+
+<script crossorigin="anonymous"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js">
+</script>
+</body>
+
+</html>
